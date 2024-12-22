@@ -31,3 +31,4 @@
 - name: "load user data"
   ansible.builtin.command: mongo --host mongodb.daws80.online < /app/schema/{{component}}.js
   when: users_count.stdout == "0" and component == "user" # keep double quotes
+  ignore_errors: true
