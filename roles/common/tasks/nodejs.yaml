@@ -5,3 +5,9 @@
   ansible.builtin.dnf:
     name: nodejs 
     state: present
+
+- name: install dependencies
+  ansible.builtin.command: npm install
+  args:
+    chdir: /app
+    
