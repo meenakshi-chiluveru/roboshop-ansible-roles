@@ -1,0 +1,6 @@
+# imort common role to catalogue rolde
+- name: import common role to catalogue role
+  ansible.builtin.import_role:
+    name: common # which is to be import
+    task_from: app-setup # which is file in common role
+
