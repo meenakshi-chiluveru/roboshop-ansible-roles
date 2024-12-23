@@ -1,6 +1,6 @@
 - name: Copy {{component}} service
   ansible.builtin.copy:
-    src: {{component}}.service
+    src: "{{component}}.service"
     dest: /etc/systemd/system/{{component}}.service
 
 - name: deamon reload and start
@@ -9,6 +9,6 @@
 
 - name: start and enable {{component}}
   ansible.builtin.service:
-    name: {{component}}
+    name: "{{component}}""
     state: restarted
     enabled: yes
