@@ -1,9 +1,12 @@
 MONGODB_HOST: mongodb.daws80.online # submit your host
 REDIS_HOST: redis.daws80.online
+MYSQL_HOST: mysql.daws80.online
+RABBITMQ_HOST: rabbitmq.daws80.online
 CATALOGUE_HOST: catalogue.daws80.online
 USER_HOST: user.daws80.online
 CART_HOST: cart.daws80.online
 SHIPPING_HOST: shipping.daws80.online
 PAYMENT_HOST: payment.daws80.online
+DISPATCH_HOST: dispatch.daws80.online
 
 
