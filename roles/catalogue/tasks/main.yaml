@@ -21,7 +21,7 @@
 - name: deployemnt
   ansible.builtin.import_role:
     name: common
-    tasks_from: deployement
+    tasks_from: deployment
 
 
 
