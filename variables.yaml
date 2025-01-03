@@ -1,1 +1,2 @@
 MONGODB_HOST: mongodb.daws80.online # submit your host
+REDIS_HOST: redis.daws80.online
